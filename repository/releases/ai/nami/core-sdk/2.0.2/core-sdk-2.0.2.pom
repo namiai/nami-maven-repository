@@ -40,24 +40,6 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>NamiSDK</groupId>
-      <artifactId>nami-android-protobuf</artifactId>
-      <version>unspecified</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>NamiSDK</groupId>
-      <artifactId>nami-local-comm</artifactId>
-      <version>unspecified</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>NamiSDK</groupId>
-      <artifactId>nami-nsd</artifactId>
-      <version>unspecified</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
       <groupId>androidx.activity</groupId>
       <artifactId>activity-ktx</artifactId>
       <version>1.9.0</version>
