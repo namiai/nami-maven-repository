@@ -28,7 +28,21 @@
           "module": "core-sdk",
           "version": {
             "requires": "2.0.4"
-          }
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "nami-android-protobuf"
+            },
+            {
+              "group": "*",
+              "module": "nami-nsd"
+            },
+            {
+              "group": "*",
+              "module": "nami-local-comm"
+            }
+          ]
         },
         {
           "group": "androidx.core",
@@ -173,7 +187,21 @@
           "module": "core-sdk",
           "version": {
             "requires": "2.0.4"
-          }
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "nami-android-protobuf"
+            },
+            {
+              "group": "*",
+              "module": "nami-nsd"
+            },
+            {
+              "group": "*",
+              "module": "nami-local-comm"
+            }
+          ]
         },
         {
           "group": "androidx.core",
