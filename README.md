@@ -18,11 +18,13 @@ dependencyResolutionManagement {
 }
 ```
 
-## In build.gradle.kts ( or build.gradle) of your module, add nami-sdk-ui  as your dependency.
+## In build.gradle.kts ( or build.gradle) of your module, add nami-sdk-ui as your dependency.
 
 ```kotlin
 dependencies {
+    // existing dependencies
 
+    // add this implementation
     implementation("ai.nami:sdk-ui:2.0.9")
     
 }
