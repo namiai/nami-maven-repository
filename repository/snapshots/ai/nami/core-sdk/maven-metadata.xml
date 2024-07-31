@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>ai.nami</groupId>
+  <artifactId>core-sdk</artifactId>
+  <versioning>
+    <latest>2.1.4-snapshots</latest>
+    <release>2.1.4-snapshots</release>
+    <versions>
+      <version>2.1.4-snapshots</version>
+    </versions>
+    <lastUpdated>20240731023821</lastUpdated>
+  </versioning>
+</metadata>
