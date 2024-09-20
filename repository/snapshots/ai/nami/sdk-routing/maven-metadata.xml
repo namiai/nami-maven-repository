@@ -3,8 +3,8 @@
   <groupId>ai.nami</groupId>
   <artifactId>sdk-routing</artifactId>
   <versioning>
-    <latest>2.2.0.14-snapshots</latest>
-    <release>2.2.0.14-snapshots</release>
+    <latest>2.3.0.6-snapshots</latest>
+    <release>2.3.0.6-snapshots</release>
     <versions>
       <version>2.1.6.3-snapshots</version>
       <version>2.1.6.4-snapshots</version>
@@ -31,7 +31,8 @@
       <version>2.3.0.4-snapshots</version>
       <version>2.3.0.5-snapshots</version>
       <version>2.2.0.14-snapshots</version>
+      <version>2.3.0.6-snapshots</version>
     </versions>
-    <lastUpdated>20240919045804</lastUpdated>
+    <lastUpdated>20240920033404</lastUpdated>
   </versioning>
 </metadata>
