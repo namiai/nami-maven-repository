@@ -3,11 +3,12 @@
   <groupId>ai.nami</groupId>
   <artifactId>widar-sdk</artifactId>
   <versioning>
-    <latest>1.1.6.2-snapshots</latest>
-    <release>1.1.6.2-snapshots</release>
+    <latest>1.1.6.3-snapshots</latest>
+    <release>1.1.6.3-snapshots</release>
     <versions>
       <version>1.1.6.2-snapshots</version>
+      <version>1.1.6.3-snapshots</version>
     </versions>
-    <lastUpdated>20240924015235</lastUpdated>
+    <lastUpdated>20240924022757</lastUpdated>
   </versioning>
 </metadata>
