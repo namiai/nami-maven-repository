@@ -1,0 +1,222 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.nami",
+    "module": "pairing-sdk",
+    "version": "1.5.9.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pairing-sdk-1.5.9.6.aar",
+          "url": "pairing-sdk-1.5.9.6.aar",
+          "size": 2293129,
+          "sha512": "9f01990203e4090028ee4b3957c3f66671dc191a5b4a57fc49b4d46ce8e1d779edc843cc419c7dafbb5814950c4714b9e224b4df6e99da8fb10daa931803fbd0",
+          "sha256": "10532f8d0e0e36de661a359d277893e3e7552b694164955febcb0e33400bc1d2",
+          "sha1": "6f594c691cdbe6c0397845a121b042663983aeea",
+          "md5": "9569748110927e95758ee560c492a424"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2024.02.02"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.7.2"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material"
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout-compose",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-common-ktx",
+          "version": {
+            "requires": "2.5.3"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.5.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-javalite",
+          "version": {
+            "requires": "3.14.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-moshi",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-kotlin",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-systemuicontroller",
+          "version": {
+            "requires": "0.30.1"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-permissions",
+          "version": {
+            "requires": "0.30.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-threadnetwork",
+          "version": {
+            "requires": "16.0.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-location",
+          "version": {
+            "requires": "21.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pairing-sdk-1.5.9.6.aar",
+          "url": "pairing-sdk-1.5.9.6.aar",
+          "size": 2293129,
+          "sha512": "9f01990203e4090028ee4b3957c3f66671dc191a5b4a57fc49b4d46ce8e1d779edc843cc419c7dafbb5814950c4714b9e224b4df6e99da8fb10daa931803fbd0",
+          "sha256": "10532f8d0e0e36de661a359d277893e3e7552b694164955febcb0e33400bc1d2",
+          "sha1": "6f594c691cdbe6c0397845a121b042663983aeea",
+          "md5": "9569748110927e95758ee560c492a424"
+        }
+      ]
+    }
+  ]
+}
