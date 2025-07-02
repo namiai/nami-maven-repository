@@ -56,11 +56,11 @@
         {
           "name": "remote-template-ui-1.0.0-snapshots.aar",
           "url": "remote-template-ui-1.0.0-snapshots.aar",
-          "size": 357464,
-          "sha512": "5b706a0e905089b77143cf30887df526fd53a98d55053b9e72a37917caacfae67f9edd058b37b0678182e7f0072d2780ae358e84939ea7c41a4a74acd512dabc",
-          "sha256": "73e54915e9117de41990f14bf4f93d5b43fa6c1b35d7788362fc33e15e3d6612",
-          "sha1": "82bcd3edb5834738616f8e7bb24ac3f0c731f9b0",
-          "md5": "969fa092a3118480e8297a6326f374b3"
+          "size": 432017,
+          "sha512": "ebeeb90194ed6848e80d1d59d40087ac70d80e6a30af07f658bd3303b2922626d9316f5cd154ea364a8d19e0360de390a18eb3d9b0d97a0b61751dd9d89680aa",
+          "sha256": "a90dfe106fba6f673f0e675477e0c5e6944571e163d140d95217909d76063508",
+          "sha1": "7f93064b28f2ff1c41a9cbd8c5de563fd9a38301",
+          "md5": "4c96f334f321fea059cd27bbdcdbfe91"
         }
       ]
     },
@@ -216,11 +216,11 @@
         {
           "name": "remote-template-ui-1.0.0-snapshots.aar",
           "url": "remote-template-ui-1.0.0-snapshots.aar",
-          "size": 357464,
-          "sha512": "5b706a0e905089b77143cf30887df526fd53a98d55053b9e72a37917caacfae67f9edd058b37b0678182e7f0072d2780ae358e84939ea7c41a4a74acd512dabc",
-          "sha256": "73e54915e9117de41990f14bf4f93d5b43fa6c1b35d7788362fc33e15e3d6612",
-          "sha1": "82bcd3edb5834738616f8e7bb24ac3f0c731f9b0",
-          "md5": "969fa092a3118480e8297a6326f374b3"
+          "size": 432017,
+          "sha512": "ebeeb90194ed6848e80d1d59d40087ac70d80e6a30af07f658bd3303b2922626d9316f5cd154ea364a8d19e0360de390a18eb3d9b0d97a0b61751dd9d89680aa",
+          "sha256": "a90dfe106fba6f673f0e675477e0c5e6944571e163d140d95217909d76063508",
+          "sha1": "7f93064b28f2ff1c41a9cbd8c5de563fd9a38301",
+          "md5": "4c96f334f321fea059cd27bbdcdbfe91"
         }
       ]
     },
@@ -236,11 +236,11 @@
         {
           "name": "remote-template-ui-1.0.0-snapshots-sources.jar",
           "url": "remote-template-ui-1.0.0-snapshots-sources.jar",
-          "size": 25275,
-          "sha512": "a9163ee9a8ca470fc65d6aaf7d135b7db2c85c7424f2106c59c7593d2b0209829294485abae75bc4e7c65a12e00148ac8a62a2474fec030b5b7e13ff97e40b3e",
-          "sha256": "d3299d48f6fdf70330f504fe141bb7e33d13de0a55805eb781e590e4f6b75738",
-          "sha1": "9a92ed8eac0b9a58896ac9fa72670e73b278ef81",
-          "md5": "85e2ba49a43eb73460fdbaa05344bc07"
+          "size": 25414,
+          "sha512": "ed5fc993b5e506216fb4e0c77529d416f7443ba20f146d175ceb67f099e1241629fcd9c4f8331383bab35863ef9d6169772c064f9d4b25aad0e04c3f3692771e",
+          "sha256": "bf6073af3a8142e4b057b1a4692c4813f732249feb5db5cb624209cb7e3525fb",
+          "sha1": "fb6f602d334c6a8b55edcf0a1639fd0c952d056c",
+          "md5": "8f803ef7d150c3ff84091aab622421e9"
         }
       ]
     }
