@@ -3,11 +3,12 @@
   <groupId>ai.nami</groupId>
   <artifactId>remote-template-ui</artifactId>
   <versioning>
-    <latest>1.0.0-snapshots</latest>
-    <release>1.0.0-snapshots</release>
+    <latest>1.0.0.4-snapshots</latest>
+    <release>1.0.0.4-snapshots</release>
     <versions>
       <version>1.0.0-snapshots</version>
+      <version>1.0.0.4-snapshots</version>
     </versions>
-    <lastUpdated>20250702072444</lastUpdated>
+    <lastUpdated>20250702074737</lastUpdated>
   </versioning>
 </metadata>
