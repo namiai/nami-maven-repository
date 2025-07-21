@@ -3,14 +3,15 @@
   <groupId>ai.nami</groupId>
   <artifactId>sdk-ui-extensions</artifactId>
   <versioning>
-    <latest>1.0.5-snapshots</latest>
-    <release>1.0.5-snapshots</release>
+    <latest>1.0.6-snapshots</latest>
+    <release>1.0.6-snapshots</release>
     <versions>
       <version>1.0.0-snapshots</version>
       <version>1.0.1-snapshots</version>
       <version>1.0.2-snapshots</version>
       <version>1.0.5-snapshots</version>
+      <version>1.0.6-snapshots</version>
     </versions>
-    <lastUpdated>20250715100132</lastUpdated>
+    <lastUpdated>20250721045336</lastUpdated>
   </versioning>
 </metadata>
