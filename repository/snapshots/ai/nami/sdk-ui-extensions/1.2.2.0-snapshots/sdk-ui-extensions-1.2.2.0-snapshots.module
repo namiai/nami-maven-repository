@@ -1,0 +1,277 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.nami",
+    "module": "sdk-ui-extensions",
+    "version": "1.2.2.0-snapshots",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "ai.nami",
+          "module": "core-sdk",
+          "version": {
+            "requires": "3.2.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "nami-android-protobuf"
+            },
+            {
+              "group": "*",
+              "module": "nami-nsd"
+            },
+            {
+              "group": "*",
+              "module": "nami-local-comm"
+            }
+          ]
+        },
+        {
+          "group": "ai.nami",
+          "module": "sdk-ui",
+          "version": {
+            "requires": "5.2.2.0-snapshots"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-ui-extensions-1.2.2.0-snapshots.aar",
+          "url": "sdk-ui-extensions-1.2.2.0-snapshots.aar",
+          "size": 632698,
+          "sha512": "ac24fed41869a2b1cd81cb93265afa36aacee636c9020c9b970c9dee2e9a879114a4b038e711d26cf4b03cc06f799ecd8c08fdf1e6b2f8412c17d69778f2667f",
+          "sha256": "2b3342dcbb807e0d5b502ff3576200b71504cc6a3116ec276c9dc800619810ea",
+          "sha1": "44d83e59e0ff3634463e0af249fb58b2a35420c2",
+          "md5": "c962525baaaa267a72cac09e9bba7455"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2024.02.02"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.7.2"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material"
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout-compose",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-common-ktx",
+          "version": {
+            "requires": "2.5.3"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.5.3"
+          }
+        },
+        {
+          "group": "com.yandex.div",
+          "module": "div-core",
+          "version": {
+            "requires": "32.0.0"
+          }
+        },
+        {
+          "group": "com.yandex.div",
+          "module": "div-json",
+          "version": {
+            "requires": "32.0.0"
+          }
+        },
+        {
+          "group": "com.yandex.div",
+          "module": "div",
+          "version": {
+            "requires": "32.0.0"
+          }
+        },
+        {
+          "group": "com.yandex.div",
+          "module": "coil",
+          "version": {
+            "requires": "32.0.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-kotlin",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-adapters",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.airbnb.android",
+          "module": "lottie",
+          "version": {
+            "requires": "6.2.0"
+          }
+        },
+        {
+          "group": "com.yandex.div",
+          "module": "div-lottie",
+          "version": {
+            "requires": "32.7.1"
+          }
+        },
+        {
+          "group": "ai.nami",
+          "module": "core-sdk",
+          "version": {
+            "requires": "3.2.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "nami-android-protobuf"
+            },
+            {
+              "group": "*",
+              "module": "nami-nsd"
+            },
+            {
+              "group": "*",
+              "module": "nami-local-comm"
+            }
+          ]
+        },
+        {
+          "group": "ai.nami",
+          "module": "sdk-ui",
+          "version": {
+            "requires": "5.2.2.0-snapshots"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-ui-extensions-1.2.2.0-snapshots.aar",
+          "url": "sdk-ui-extensions-1.2.2.0-snapshots.aar",
+          "size": 632698,
+          "sha512": "ac24fed41869a2b1cd81cb93265afa36aacee636c9020c9b970c9dee2e9a879114a4b038e711d26cf4b03cc06f799ecd8c08fdf1e6b2f8412c17d69778f2667f",
+          "sha256": "2b3342dcbb807e0d5b502ff3576200b71504cc6a3116ec276c9dc800619810ea",
+          "sha1": "44d83e59e0ff3634463e0af249fb58b2a35420c2",
+          "md5": "c962525baaaa267a72cac09e9bba7455"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sdk-ui-extensions-1.2.2.0-snapshots-sources.jar",
+          "url": "sdk-ui-extensions-1.2.2.0-snapshots-sources.jar",
+          "size": 58922,
+          "sha512": "00e7fad1c1349fec38631ded51efa77583c66cf75b10191d3b1c44c83b86ad5dcbc133acc5b633a8734969ca822cdf37bfde6b43f197745c9ca8154b4ebfbdf5",
+          "sha256": "80fc8d37bed434f00ca19cbf6048e27a39f647c58d73e8adf0b640acf71165da",
+          "sha1": "295637c97ea2e88a719eb9ba108727710fd3fcb4",
+          "md5": "618d2a5b42c1a65c8ae9f780cacaae8d"
+        }
+      ]
+    }
+  ]
+}
