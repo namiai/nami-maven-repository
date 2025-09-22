@@ -27,7 +27,7 @@
           "group": "ai.nami",
           "module": "core-sdk",
           "version": {
-            "requires": "3.2.2"
+            "requires": "3.2.3"
           },
           "excludes": [
             {
@@ -186,7 +186,7 @@
           "group": "ai.nami",
           "module": "core-sdk",
           "version": {
-            "requires": "3.2.2"
+            "requires": "3.2.3"
           },
           "excludes": [
             {
