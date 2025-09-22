@@ -27,7 +27,7 @@
           "group": "ai.nami",
           "module": "sdk-routing",
           "version": {
-            "requires": "5.2.2.3-snapshots"
+            "requires": "5.2.2.4-snapshots"
           }
         },
         {
@@ -162,11 +162,11 @@
         {
           "name": "sdk-ui-5.2.2.3-snapshots.aar",
           "url": "sdk-ui-5.2.2.3-snapshots.aar",
-          "size": 4308774,
-          "sha512": "8c90c5659a1d41b45db24816161512ba3bc847521efa1d40825648c02b3b0965c9b3aee5f0f6c9cf9d0986d94185c1ce57e64e1456abdb606c5270668e7370f9",
-          "sha256": "5ae440dc428417a7f3ff8fa4e947938c7106f0b58c51ec6e79b63c2b423d5161",
-          "sha1": "813bf209097693049f460b04d8075675162dc494",
-          "md5": "b802d11c8ff0204a2dac69cea8c4fb5d"
+          "size": 4308747,
+          "sha512": "36e62de578531b48c4d6e390b77f19651c23cffe7e9b60bd17f3fc436a681fb65d65d69c94e6f2bceba360c935b7d3e151ed9f35eca92efbf23d172caa61cab2",
+          "sha256": "badc9cfd8d39ab8f21f7df2c22fd15ef0c54ac3b4ebd6fb12d6ccb9ab142bc37",
+          "sha1": "f89565834e78a27e7f3fa68cf819f854f391098b",
+          "md5": "da76c09a1162f528c34002c7e4365925"
         }
       ]
     },
@@ -190,7 +190,7 @@
           "group": "ai.nami",
           "module": "sdk-routing",
           "version": {
-            "requires": "5.2.2.3-snapshots"
+            "requires": "5.2.2.4-snapshots"
           }
         },
         {
@@ -325,11 +325,11 @@
         {
           "name": "sdk-ui-5.2.2.3-snapshots.aar",
           "url": "sdk-ui-5.2.2.3-snapshots.aar",
-          "size": 4308774,
-          "sha512": "8c90c5659a1d41b45db24816161512ba3bc847521efa1d40825648c02b3b0965c9b3aee5f0f6c9cf9d0986d94185c1ce57e64e1456abdb606c5270668e7370f9",
-          "sha256": "5ae440dc428417a7f3ff8fa4e947938c7106f0b58c51ec6e79b63c2b423d5161",
-          "sha1": "813bf209097693049f460b04d8075675162dc494",
-          "md5": "b802d11c8ff0204a2dac69cea8c4fb5d"
+          "size": 4308747,
+          "sha512": "36e62de578531b48c4d6e390b77f19651c23cffe7e9b60bd17f3fc436a681fb65d65d69c94e6f2bceba360c935b7d3e151ed9f35eca92efbf23d172caa61cab2",
+          "sha256": "badc9cfd8d39ab8f21f7df2c22fd15ef0c54ac3b4ebd6fb12d6ccb9ab142bc37",
+          "sha1": "f89565834e78a27e7f3fa68cf819f854f391098b",
+          "md5": "da76c09a1162f528c34002c7e4365925"
         }
       ]
     },
@@ -345,11 +345,11 @@
         {
           "name": "sdk-ui-5.2.2.3-snapshots-sources.jar",
           "url": "sdk-ui-5.2.2.3-snapshots-sources.jar",
-          "size": 123241,
-          "sha512": "471edad977c166b21f49509315b09e4fc63bf7d41b5a8f69b2c35b30b7ec9fc135fc1be3bcbdf02a54df3a4b0a673ef268eba3692f257d09d101789f323b75fd",
-          "sha256": "5b4c7cf6ffc83ca99cc2b9c7b4b1e942884959a81e154f967c5ace13a0c5e571",
-          "sha1": "b48673bf4f57a1742ff6d2d43bfcb088334ab9a2",
-          "md5": "e0184b26cb710081aa51749d99b6e7c9"
+          "size": 123262,
+          "sha512": "e8979da69f23e618b261c45d349f8f9a009dd69a7224180a2a18fa224448149b52e6296d5eda55da6295c6faace163ce46e2222129a64397de9345bf877cb699",
+          "sha256": "ca3a1e8da559a66b0271ae8b8048d548fa1650ec0334710a7029744197c9225f",
+          "sha1": "476fc7bca8d30010b54eb66b856bb5f9ab280f49",
+          "md5": "a7412e3230fa24a5ce43890142704f90"
         }
       ]
     }
