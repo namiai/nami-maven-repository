@@ -158,11 +158,11 @@
         {
           "name": "sdk-routing-5.2.4.aar",
           "url": "sdk-routing-5.2.4.aar",
-          "size": 355427,
-          "sha512": "7446d9ec9963329370c9bb2caeee6a67cffdc9dbbea76ef38b6bfbebb0b341f5d6c2e6512b25a7b81942159d2860db3bab99299c6d32c0f2c08f48833be5d19d",
-          "sha256": "45f108e4cd0d78edfd83d7d68a3d47886c7aa8c3001766b9e54c4b3d07ac91d2",
-          "sha1": "cc9c4bd2d3b17394427ba6ade515c7606792c29a",
-          "md5": "b87097940f31a3de317541c3e6ec7093"
+          "size": 355450,
+          "sha512": "1565ad4de111f20b012c41758c0666f0527767210c62a0e4aa95cc48a0d66b953b6ae63b8706305797352fc7198f227f5c48a24e5d7f78486d23445498452f2e",
+          "sha256": "52ac9751f466c0dd3ae3427b96edca6c91959516987ce62c0e37710222800788",
+          "sha1": "1ca4c3ad09d3d9b24be66217e94f89e8a87ee420",
+          "md5": "3a393c90e502d222357d274158fbde4f"
         }
       ]
     },
@@ -317,11 +317,11 @@
         {
           "name": "sdk-routing-5.2.4.aar",
           "url": "sdk-routing-5.2.4.aar",
-          "size": 355427,
-          "sha512": "7446d9ec9963329370c9bb2caeee6a67cffdc9dbbea76ef38b6bfbebb0b341f5d6c2e6512b25a7b81942159d2860db3bab99299c6d32c0f2c08f48833be5d19d",
-          "sha256": "45f108e4cd0d78edfd83d7d68a3d47886c7aa8c3001766b9e54c4b3d07ac91d2",
-          "sha1": "cc9c4bd2d3b17394427ba6ade515c7606792c29a",
-          "md5": "b87097940f31a3de317541c3e6ec7093"
+          "size": 355450,
+          "sha512": "1565ad4de111f20b012c41758c0666f0527767210c62a0e4aa95cc48a0d66b953b6ae63b8706305797352fc7198f227f5c48a24e5d7f78486d23445498452f2e",
+          "sha256": "52ac9751f466c0dd3ae3427b96edca6c91959516987ce62c0e37710222800788",
+          "sha1": "1ca4c3ad09d3d9b24be66217e94f89e8a87ee420",
+          "md5": "3a393c90e502d222357d274158fbde4f"
         }
       ]
     },
@@ -337,11 +337,11 @@
         {
           "name": "sdk-routing-5.2.4-sources.jar",
           "url": "sdk-routing-5.2.4-sources.jar",
-          "size": 56977,
-          "sha512": "a8afac9fdb5e86d2d77edd921343c26863e6d034a220243c6c9a2d649164efc7d18c6d34610f049052ef78f18920b924f8a84976662b309ddb6d4368f321888b",
-          "sha256": "f76e7c873ca4ff94d287bd3e08fcaa667cebc7bf8bf22bd0b1f8b829edead90e",
-          "sha1": "1d2d5be4dfb7734f17f82016ea1ba2c57a28247d",
-          "md5": "a4db81a242d74fbd41adcdb6d86d2157"
+          "size": 56997,
+          "sha512": "c4a4876658f2424ffeebb9f21719946812744cde43b7e28b539c7cd66666a7129b6f535d704f3b906c7fe2ad93752033ab8498695fee3b7fcdb436b8a80c0fa5",
+          "sha256": "0e6117a96ba577e23cd109e86001bf464681275f304b531ea85a266dba379641",
+          "sha1": "7f7126817d12791c01572b2d054e5f5c1901fdac",
+          "md5": "90800f6f174cccdb9955a7d5b100ba2f"
         }
       ]
     }
