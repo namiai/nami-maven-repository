@@ -1,0 +1,382 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.nami",
+    "module": "sdk-ui-extensions",
+    "version": "2.0.0.25-snapshots",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "ai.nami",
+          "module": "core-sdk",
+          "version": {
+            "requires": "4.0.0.9-snapshots"
+          }
+        },
+        {
+          "group": "ai.nami",
+          "module": "sdk-ui",
+          "version": {
+            "requires": "6.0.0.8-snapshots"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.06.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.7.2"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material"
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-core"
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout-compose",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-common-ktx",
+          "version": {
+            "requires": "2.5.3"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.5.3"
+          }
+        },
+        {
+          "group": "com.yandex.div",
+          "module": "div-core",
+          "version": {
+            "requires": "32.19.0"
+          }
+        },
+        {
+          "group": "com.yandex.div",
+          "module": "div-json",
+          "version": {
+            "requires": "32.19.0"
+          }
+        },
+        {
+          "group": "com.yandex.div",
+          "module": "div",
+          "version": {
+            "requires": "32.19.0"
+          }
+        },
+        {
+          "group": "com.yandex.div",
+          "module": "coil",
+          "version": {
+            "requires": "32.19.0"
+          }
+        },
+        {
+          "group": "com.yandex.div",
+          "module": "div-lottie",
+          "version": {
+            "requires": "32.19.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-kotlin",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-adapters",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.airbnb.android",
+          "module": "lottie",
+          "version": {
+            "requires": "6.6.9"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-ui-extensions-2.0.0.25-snapshots.aar",
+          "url": "sdk-ui-extensions-2.0.0.25-snapshots.aar",
+          "size": 580744,
+          "sha512": "07b38e0cd24b0f30d05842edd41057f32bafe1be56969833d0a5441ae1e5e88a478145b62abed40f954c7b82d58f8a918b169904dec1d15110a6152ec160d198",
+          "sha256": "81d38527e8dbf6c8b9a170ab9291523f99fb7fcb210244e2f0a00ca067a1df70",
+          "sha1": "5bf3bfb725492e27efbab3c640c3b7456b126c18",
+          "md5": "f41eb3ceabca5c8a199c507f30202d37"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "ai.nami",
+          "module": "core-sdk",
+          "version": {
+            "requires": "4.0.0.9-snapshots"
+          }
+        },
+        {
+          "group": "ai.nami",
+          "module": "sdk-ui",
+          "version": {
+            "requires": "6.0.0.8-snapshots"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.06.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.7.2"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material"
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-core"
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout-compose",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-common-ktx",
+          "version": {
+            "requires": "2.5.3"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.5.3"
+          }
+        },
+        {
+          "group": "com.yandex.div",
+          "module": "div-core",
+          "version": {
+            "requires": "32.19.0"
+          }
+        },
+        {
+          "group": "com.yandex.div",
+          "module": "div-json",
+          "version": {
+            "requires": "32.19.0"
+          }
+        },
+        {
+          "group": "com.yandex.div",
+          "module": "div",
+          "version": {
+            "requires": "32.19.0"
+          }
+        },
+        {
+          "group": "com.yandex.div",
+          "module": "coil",
+          "version": {
+            "requires": "32.19.0"
+          }
+        },
+        {
+          "group": "com.yandex.div",
+          "module": "div-lottie",
+          "version": {
+            "requires": "32.19.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-kotlin",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-adapters",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.airbnb.android",
+          "module": "lottie",
+          "version": {
+            "requires": "6.6.9"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-ui-extensions-2.0.0.25-snapshots.aar",
+          "url": "sdk-ui-extensions-2.0.0.25-snapshots.aar",
+          "size": 580744,
+          "sha512": "07b38e0cd24b0f30d05842edd41057f32bafe1be56969833d0a5441ae1e5e88a478145b62abed40f954c7b82d58f8a918b169904dec1d15110a6152ec160d198",
+          "sha256": "81d38527e8dbf6c8b9a170ab9291523f99fb7fcb210244e2f0a00ca067a1df70",
+          "sha1": "5bf3bfb725492e27efbab3c640c3b7456b126c18",
+          "md5": "f41eb3ceabca5c8a199c507f30202d37"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sdk-ui-extensions-2.0.0.25-snapshots-sources.jar",
+          "url": "sdk-ui-extensions-2.0.0.25-snapshots-sources.jar",
+          "size": 59375,
+          "sha512": "2e9a7e4a74a0d77e807f1c947c7fb5601ee1e16516afc8b4bbf34f29b71c3896634c5c0d5984a004c05f101b134643b7826f154a7c03ac3dc7e4dc1f80d5aee0",
+          "sha256": "a7e6119f9ed2f8169399ffb7e0cb826263212f53d1ec4892243104eac87328ff",
+          "sha1": "9d2d425f39064197dcc22d9240da48d0c0e08c03",
+          "md5": "0bd5a07ab9fd9d6b9c4d5a07e84df415"
+        }
+      ]
+    }
+  ]
+}
