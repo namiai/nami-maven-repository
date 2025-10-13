@@ -42,7 +42,7 @@
     <dependency>
       <groupId>ai.nami</groupId>
       <artifactId>core-sdk</artifactId>
-      <version>4.0.0.10-snapshots</version>
+      <version>4.0.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
