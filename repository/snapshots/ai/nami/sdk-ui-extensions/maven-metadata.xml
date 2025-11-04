@@ -3,8 +3,8 @@
   <groupId>ai.nami</groupId>
   <artifactId>sdk-ui-extensions</artifactId>
   <versioning>
-    <latest>2.0.2.5-snapshots</latest>
-    <release>2.0.2.5-snapshots</release>
+    <latest>2.0.2.6-snapshots</latest>
+    <release>2.0.2.6-snapshots</release>
     <versions>
       <version>1.0.0-snapshots</version>
       <version>1.0.1-snapshots</version>
@@ -63,7 +63,8 @@
       <version>2.0.2.4-snapshots</version>
       <version>2.0.3.0-snapshots</version>
       <version>2.0.2.5-snapshots</version>
+      <version>2.0.2.6-snapshots</version>
     </versions>
-    <lastUpdated>20251104035003</lastUpdated>
+    <lastUpdated>20251104044310</lastUpdated>
   </versioning>
 </metadata>
