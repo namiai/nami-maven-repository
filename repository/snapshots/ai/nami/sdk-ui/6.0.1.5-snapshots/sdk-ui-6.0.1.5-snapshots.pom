@@ -42,7 +42,7 @@
     <dependency>
       <groupId>ai.nami</groupId>
       <artifactId>sdk-routing</artifactId>
-      <version>6.0.1.5-snapshots</version>
+      <version>6.0.1.6-snapshots</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
