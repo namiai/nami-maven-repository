@@ -1,0 +1,365 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.nami",
+    "module": "sdk-ui",
+    "version": "6.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "ai.nami",
+          "module": "sdk-routing",
+          "version": {
+            "requires": "6.0.2"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.06.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.7.2"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material"
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout-compose",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-core"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-common-ktx",
+          "version": {
+            "requires": "2.5.3"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.5.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-kotlin",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-permissions",
+          "version": {
+            "requires": "0.30.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-location",
+          "version": {
+            "requires": "21.0.1"
+          }
+        },
+        {
+          "group": "com.airbnb.android",
+          "module": "lottie-compose",
+          "version": {
+            "strictly": "6.2.0",
+            "requires": "6.2.0",
+            "prefers": "6.2.0"
+          }
+        },
+        {
+          "group": "androidx.browser",
+          "module": "browser",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.7.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-ui-6.0.2.aar",
+          "url": "sdk-ui-6.0.2.aar",
+          "size": 3819325,
+          "sha512": "bf21492df76d21a02f669d0b3ccbf96bacab2b0e0183ec6beca3e8edc1eab27051f65c13058626571dd11817299ceea413f8dbfa63621c11a02dd1becea38b1e",
+          "sha256": "d4c200f4e7ab203439e7ac89be012dd23526973e4c26fe370176380c8572a9aa",
+          "sha1": "30991f889f357be29f253507c59e176f4be61c21",
+          "md5": "cab8ee7b08a52f21b3d37125e4eb0b08"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "ai.nami",
+          "module": "sdk-routing",
+          "version": {
+            "requires": "6.0.2"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.06.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.7.2"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material"
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout-compose",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-core"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-common-ktx",
+          "version": {
+            "requires": "2.5.3"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.5.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-kotlin",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-permissions",
+          "version": {
+            "requires": "0.30.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-location",
+          "version": {
+            "requires": "21.0.1"
+          }
+        },
+        {
+          "group": "com.airbnb.android",
+          "module": "lottie-compose",
+          "version": {
+            "strictly": "6.2.0",
+            "requires": "6.2.0",
+            "prefers": "6.2.0"
+          }
+        },
+        {
+          "group": "androidx.browser",
+          "module": "browser",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.7.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-ui-6.0.2.aar",
+          "url": "sdk-ui-6.0.2.aar",
+          "size": 3819325,
+          "sha512": "bf21492df76d21a02f669d0b3ccbf96bacab2b0e0183ec6beca3e8edc1eab27051f65c13058626571dd11817299ceea413f8dbfa63621c11a02dd1becea38b1e",
+          "sha256": "d4c200f4e7ab203439e7ac89be012dd23526973e4c26fe370176380c8572a9aa",
+          "sha1": "30991f889f357be29f253507c59e176f4be61c21",
+          "md5": "cab8ee7b08a52f21b3d37125e4eb0b08"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sdk-ui-6.0.2-sources.jar",
+          "url": "sdk-ui-6.0.2-sources.jar",
+          "size": 124610,
+          "sha512": "dd4e12aaf60aaa07ef0484592da53f7bf195db7f7994c6b401df5aaad6795563914e854d94f8303c7ff35dc36e929994653a4cde465f91612c6687f55142f3cb",
+          "sha256": "aa0dbd5638c58549e723a781485ebd595463395df13de176d2a62deca6c84746",
+          "sha1": "65b6495c0bea252e776ea6f899e36aa70796098f",
+          "md5": "91dbb687dd4a973f74ec3cc884ff5052"
+        }
+      ]
+    }
+  ]
+}
