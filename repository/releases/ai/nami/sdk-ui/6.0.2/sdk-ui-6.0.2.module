@@ -27,7 +27,7 @@
           "group": "ai.nami",
           "module": "sdk-routing",
           "version": {
-            "requires": "6.0.2"
+            "requires": "6.1.0"
           }
         },
         {
@@ -194,7 +194,7 @@
           "group": "ai.nami",
           "module": "sdk-routing",
           "version": {
-            "requires": "6.0.2"
+            "requires": "6.1.0"
           }
         },
         {
