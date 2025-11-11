@@ -27,7 +27,7 @@
           "group": "ai.nami",
           "module": "core-sdk",
           "version": {
-            "requires": "4.0.2"
+            "requires": "4.1.0"
           }
         },
         {
@@ -172,7 +172,7 @@
           "group": "ai.nami",
           "module": "core-sdk",
           "version": {
-            "requires": "4.0.2"
+            "requires": "4.1.0"
           }
         },
         {
