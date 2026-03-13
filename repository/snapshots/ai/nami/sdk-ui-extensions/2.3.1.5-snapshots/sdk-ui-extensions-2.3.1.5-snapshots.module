@@ -1,0 +1,452 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.nami",
+    "module": "sdk-ui-extensions",
+    "version": "2.3.1.5-snapshots",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "ai.nami",
+          "module": "core-sdk",
+          "version": {
+            "requires": "4.3.1.1-snapshots"
+          }
+        },
+        {
+          "group": "ai.nami",
+          "module": "sdk-ui",
+          "version": {
+            "requires": "6.3.1.0-snapshots"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.06.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.7.2"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material"
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-core"
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout-compose",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-common-ktx",
+          "version": {
+            "requires": "2.9.6"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.9.6"
+          }
+        },
+        {
+          "group": "com.yandex.div",
+          "module": "div-core",
+          "version": {
+            "requires": "32.19.0"
+          }
+        },
+        {
+          "group": "com.yandex.div",
+          "module": "div-json",
+          "version": {
+            "requires": "32.19.0"
+          }
+        },
+        {
+          "group": "com.yandex.div",
+          "module": "div",
+          "version": {
+            "requires": "32.19.0"
+          }
+        },
+        {
+          "group": "com.yandex.div",
+          "module": "coil",
+          "version": {
+            "requires": "32.19.0"
+          }
+        },
+        {
+          "group": "com.yandex.div",
+          "module": "div-lottie",
+          "version": {
+            "requires": "32.19.0"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-svg",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-network-okhttp",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-network-cache-control",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-gif",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-kotlin",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-adapters",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.airbnb.android",
+          "module": "lottie",
+          "version": {
+            "requires": "6.6.9"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-ui-extensions-2.3.1.5-snapshots.aar",
+          "url": "sdk-ui-extensions-2.3.1.5-snapshots.aar",
+          "size": 735823,
+          "sha512": "89876b33b80c520ce55e7dbd95ebe7de5d0c64cc3b55b108f215c3613e47981c60698a5238ab0c69e8175977ca69d50d7b8c2b0cf83b10daff8a2f7f2e8bf8bc",
+          "sha256": "16c76bdaaca0691fea669470ba64fa2316a296740a778f0da73dfbdd75ede643",
+          "sha1": "8373adb28f156014707efe809cb37bdf3ffedf5b",
+          "md5": "83daf8971d216061b0d291e20c603d38"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "ai.nami",
+          "module": "core-sdk",
+          "version": {
+            "requires": "4.3.1.1-snapshots"
+          }
+        },
+        {
+          "group": "ai.nami",
+          "module": "sdk-ui",
+          "version": {
+            "requires": "6.3.1.0-snapshots"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.06.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.7.2"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material"
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-core"
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout-compose",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-common-ktx",
+          "version": {
+            "requires": "2.9.6"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.9.6"
+          }
+        },
+        {
+          "group": "com.yandex.div",
+          "module": "div-core",
+          "version": {
+            "requires": "32.19.0"
+          }
+        },
+        {
+          "group": "com.yandex.div",
+          "module": "div-json",
+          "version": {
+            "requires": "32.19.0"
+          }
+        },
+        {
+          "group": "com.yandex.div",
+          "module": "div",
+          "version": {
+            "requires": "32.19.0"
+          }
+        },
+        {
+          "group": "com.yandex.div",
+          "module": "coil",
+          "version": {
+            "requires": "32.19.0"
+          }
+        },
+        {
+          "group": "com.yandex.div",
+          "module": "div-lottie",
+          "version": {
+            "requires": "32.19.0"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-svg",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-network-okhttp",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-network-cache-control",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "io.coil-kt.coil3",
+          "module": "coil-gif",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-kotlin",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-adapters",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.airbnb.android",
+          "module": "lottie",
+          "version": {
+            "requires": "6.6.9"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-ui-extensions-2.3.1.5-snapshots.aar",
+          "url": "sdk-ui-extensions-2.3.1.5-snapshots.aar",
+          "size": 735823,
+          "sha512": "89876b33b80c520ce55e7dbd95ebe7de5d0c64cc3b55b108f215c3613e47981c60698a5238ab0c69e8175977ca69d50d7b8c2b0cf83b10daff8a2f7f2e8bf8bc",
+          "sha256": "16c76bdaaca0691fea669470ba64fa2316a296740a778f0da73dfbdd75ede643",
+          "sha1": "8373adb28f156014707efe809cb37bdf3ffedf5b",
+          "md5": "83daf8971d216061b0d291e20c603d38"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sdk-ui-extensions-2.3.1.5-snapshots-sources.jar",
+          "url": "sdk-ui-extensions-2.3.1.5-snapshots-sources.jar",
+          "size": 83957,
+          "sha512": "7756c87023fe07ccc8e3117337fcb24ee75d9b8e3ccd3d030c2b47b0385f6edf911698cbd0fbc9d2e51c6c903edaa688befac052db68927f9506ff254d69a9c5",
+          "sha256": "a7fcdb104fb28151483b238524a7190fe3da6244a470dc78a87ffb1c1b7ad83f",
+          "sha1": "3cd72f6a5ea3020acb8699d445e33347e8d8c817",
+          "md5": "c9adc3609015d3bdb23937db7cc374e3"
+        }
+      ]
+    }
+  ]
+}
