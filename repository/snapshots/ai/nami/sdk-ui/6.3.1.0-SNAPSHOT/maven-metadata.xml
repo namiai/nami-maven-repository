@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
   <groupId>ai.nami</groupId>
-  <artifactId>sdk-routing</artifactId>
+  <artifactId>sdk-ui</artifactId>
   <versioning>
-    <lastUpdated>20260407105531</lastUpdated>
+    <lastUpdated>20260407105705</lastUpdated>
     <snapshot>
-      <timestamp>20260407.105531</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20260407.105705</timestamp>
+      <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>aar</extension>
-        <value>6.3.1.0-20260407.105531-2</value>
-        <updated>20260407105531</updated>
+        <value>6.3.1.0-20260407.105705-1</value>
+        <updated>20260407105705</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>6.3.1.0-20260407.105531-2</value>
-        <updated>20260407105531</updated>
+        <value>6.3.1.0-20260407.105705-1</value>
+        <updated>20260407105705</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>6.3.1.0-20260407.105531-2</value>
-        <updated>20260407105531</updated>
+        <value>6.3.1.0-20260407.105705-1</value>
+        <updated>20260407105705</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>6.3.1.0-20260407.105531-2</value>
-        <updated>20260407105531</updated>
+        <value>6.3.1.0-20260407.105705-1</value>
+        <updated>20260407105705</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
