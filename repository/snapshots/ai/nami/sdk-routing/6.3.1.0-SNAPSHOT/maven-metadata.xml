@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>ai.nami</groupId>
+  <artifactId>sdk-routing</artifactId>
+  <versioning>
+    <lastUpdated>20260407105100</lastUpdated>
+    <snapshot>
+      <timestamp>20260407.105100</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>6.3.1.0-20260407.105100-1</value>
+        <updated>20260407105100</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>6.3.1.0-20260407.105100-1</value>
+        <updated>20260407105100</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>6.3.1.0-20260407.105100-1</value>
+        <updated>20260407105100</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>6.3.1.0-20260407.105100-1</value>
+        <updated>20260407105100</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>6.3.1.0-SNAPSHOT</version>
+</metadata>
