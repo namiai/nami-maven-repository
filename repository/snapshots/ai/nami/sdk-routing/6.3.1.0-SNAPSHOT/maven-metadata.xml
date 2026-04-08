@@ -3,32 +3,32 @@
   <groupId>ai.nami</groupId>
   <artifactId>sdk-routing</artifactId>
   <versioning>
-    <lastUpdated>20260407105531</lastUpdated>
+    <lastUpdated>20260408051140</lastUpdated>
     <snapshot>
-      <timestamp>20260407.105531</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20260408.051140</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>aar</extension>
-        <value>6.3.1.0-20260407.105531-2</value>
-        <updated>20260407105531</updated>
+        <value>6.3.1.0-20260408.051140-3</value>
+        <updated>20260408051140</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>6.3.1.0-20260407.105531-2</value>
-        <updated>20260407105531</updated>
+        <extension>pom</extension>
+        <value>6.3.1.0-20260408.051140-3</value>
+        <updated>20260408051140</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>6.3.1.0-20260407.105531-2</value>
-        <updated>20260407105531</updated>
+        <value>6.3.1.0-20260408.051140-3</value>
+        <updated>20260408051140</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>6.3.1.0-20260407.105531-2</value>
-        <updated>20260407105531</updated>
+        <extension>module</extension>
+        <value>6.3.1.0-20260408.051140-3</value>
+        <updated>20260408051140</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
