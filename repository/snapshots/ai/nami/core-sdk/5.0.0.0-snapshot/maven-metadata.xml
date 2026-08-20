@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>ai.nami</groupId>
+  <artifactId>core-sdk</artifactId>
+  <versioning>
+    <lastUpdated>20260820043113</lastUpdated>
+    <snapshot>
+      <timestamp>20260820.043113</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>5.0.0.0-snapshot</value>
+        <updated>20260820043113</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>5.0.0.0-snapshot</value>
+        <updated>20260820043113</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>5.0.0.0-snapshot</value>
+        <updated>20260820043113</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>5.0.0.0-snapshot</version>
+</metadata>
