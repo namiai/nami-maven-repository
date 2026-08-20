@@ -3,26 +3,26 @@
   <groupId>ai.nami</groupId>
   <artifactId>core-sdk</artifactId>
   <versioning>
-    <lastUpdated>20260709072520</lastUpdated>
+    <lastUpdated>20260820040747</lastUpdated>
     <snapshot>
-      <timestamp>20260709.072520</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20260820.040747</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>4.6.0.0-snapshot</value>
-        <updated>20260709072520</updated>
-      </snapshotVersion>
-      <snapshotVersion>
         <extension>pom</extension>
         <value>4.6.0.0-snapshot</value>
-        <updated>20260709072520</updated>
+        <updated>20260820040747</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>aar</extension>
         <value>4.6.0.0-snapshot</value>
-        <updated>20260709072520</updated>
+        <updated>20260820040747</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>4.6.0.0-snapshot</value>
+        <updated>20260820040747</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
