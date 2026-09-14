@@ -3,7 +3,7 @@
   <groupId>ai.nami</groupId>
   <artifactId>core-sdk</artifactId>
   <versioning>
-    <latest>4.7.0.3-snapshot</latest>
+    <latest>4.7.0.4-snapshot</latest>
     <release>4.4.0.0-snapshots</release>
     <versions>
       <version>2.1.4-snapshots</version>
@@ -106,7 +106,8 @@
       <version>4.7.0.1-snapshot</version>
       <version>4.7.0.2-snapshot</version>
       <version>4.7.0.3-snapshot</version>
+      <version>4.7.0.4-snapshot</version>
     </versions>
-    <lastUpdated>20260910043528</lastUpdated>
+    <lastUpdated>20260914070242</lastUpdated>
   </versioning>
 </metadata>
