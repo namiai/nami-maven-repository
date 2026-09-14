@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>ai.nami</groupId>
+  <artifactId>sdk-ui-extensions</artifactId>
+  <versioning>
+    <lastUpdated>20260914070931</lastUpdated>
+    <snapshot>
+      <timestamp>20260914.070931</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2.8.0.7-snapshot</value>
+        <updated>20260914070931</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>2.8.0.7-snapshot</value>
+        <updated>20260914070931</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>2.8.0.7-snapshot</value>
+        <updated>20260914070931</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>2.8.0.7-snapshot</value>
+        <updated>20260914070931</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>2.8.0.7-snapshot</version>
+</metadata>
