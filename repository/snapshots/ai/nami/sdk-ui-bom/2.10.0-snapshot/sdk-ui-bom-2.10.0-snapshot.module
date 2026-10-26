@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.nami",
+    "module": "sdk-ui-bom",
+    "version": "2.10.0-snapshot",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "ai.nami",
+          "module": "sdk-ui-extensions",
+          "version": {
+            "requires": "2.10.0.0-snapshot"
+          }
+        },
+        {
+          "group": "ai.nami",
+          "module": "sdk-ui-navigation",
+          "version": {
+            "requires": "1.0.0-snapshot"
+          }
+        },
+        {
+          "group": "ai.nami",
+          "module": "sdk-ui-navigation2",
+          "version": {
+            "requires": "1.0.0-snapshot"
+          }
+        },
+        {
+          "group": "ai.nami",
+          "module": "sdk-ui-navigation3",
+          "version": {
+            "requires": "1.0.0-snapshot"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "ai.nami",
+          "module": "sdk-ui-extensions",
+          "version": {
+            "requires": "2.10.0.0-snapshot"
+          }
+        },
+        {
+          "group": "ai.nami",
+          "module": "sdk-ui-navigation",
+          "version": {
+            "requires": "1.0.0-snapshot"
+          }
+        },
+        {
+          "group": "ai.nami",
+          "module": "sdk-ui-navigation2",
+          "version": {
+            "requires": "1.0.0-snapshot"
+          }
+        },
+        {
+          "group": "ai.nami",
+          "module": "sdk-ui-navigation3",
+          "version": {
+            "requires": "1.0.0-snapshot"
+          }
+        }
+      ]
+    }
+  ]
+}

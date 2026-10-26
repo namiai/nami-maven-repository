@@ -1,0 +1,197 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.nami",
+    "module": "sdk-ui-navigation2",
+    "version": "1.0.0-snapshot",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "ai.nami",
+          "module": "sdk-ui-navigation",
+          "version": {
+            "requires": "1.0.0-snapshot"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.10.00"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-ui-navigation2-1.0.0-snapshot.aar",
+          "url": "sdk-ui-navigation2-1.0.0-snapshot.aar",
+          "size": 21221,
+          "sha512": "1f810414f801b455143fa36a8a0475f228bb1add5dd7eb61b68b457c6a6063666a40bbac3831c0a9823c7303c1dd85848ee58ddbe22a956f6eeee18881767f48",
+          "sha256": "051dc5e5013f7a64053ac40de2fb94a0591944b8d72d8641c2da05ba3a9affdc",
+          "sha1": "76df31db3cbe3acd0a83a731de630d49171bd812",
+          "md5": "332952a284504f09a1c8dc4faf57aa2c"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "ai.nami",
+          "name": "sdk-ui-navigation2",
+          "version": "1.0.0-snapshot"
+        },
+        {
+          "group": "ai.nami",
+          "name": "sdk-ui-navigation-implementation",
+          "version": "1.0.0-snapshot"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.9.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "ai.nami",
+          "module": "sdk-ui-navigation",
+          "version": {
+            "requires": "1.0.0-snapshot"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.10.00"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-ui-navigation2-1.0.0-snapshot.aar",
+          "url": "sdk-ui-navigation2-1.0.0-snapshot.aar",
+          "size": 21221,
+          "sha512": "1f810414f801b455143fa36a8a0475f228bb1add5dd7eb61b68b457c6a6063666a40bbac3831c0a9823c7303c1dd85848ee58ddbe22a956f6eeee18881767f48",
+          "sha256": "051dc5e5013f7a64053ac40de2fb94a0591944b8d72d8641c2da05ba3a9affdc",
+          "sha1": "76df31db3cbe3acd0a83a731de630d49171bd812",
+          "md5": "332952a284504f09a1c8dc4faf57aa2c"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "ai.nami",
+          "name": "sdk-ui-navigation2",
+          "version": "1.0.0-snapshot"
+        },
+        {
+          "group": "ai.nami",
+          "name": "sdk-ui-navigation-implementation",
+          "version": "1.0.0-snapshot"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sdk-ui-navigation2-1.0.0-snapshot-sources.jar",
+          "url": "sdk-ui-navigation2-1.0.0-snapshot-sources.jar",
+          "size": 4487,
+          "sha512": "6a3f2bbbf7b08af69d4e94bc8f0b62c52e5676d699eff32a420c43a9b6f7dc0592d3a729c8d37e4ccb67bfa63262d1bd816266d706ac94d5fb08fbc87018980a",
+          "sha256": "9d01c372ec98780bfc02713fcfee322b7b11d3e61518bc55eeea26d0c021e749",
+          "sha1": "7c793e6a376234f29e54a9adbae17afe106e9e13",
+          "md5": "92372ff966f64bd07d56d2353f6c2a3b"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "ai.nami",
+          "name": "sdk-ui-navigation2",
+          "version": "1.0.0-snapshot"
+        },
+        {
+          "group": "ai.nami",
+          "name": "sdk-ui-navigation-implementation",
+          "version": "1.0.0-snapshot"
+        }
+      ]
+    }
+  ]
+}
